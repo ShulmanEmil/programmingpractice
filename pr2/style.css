@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	font-family: 'Open Sans';
+}
+.app{
+	margin-left: auto;
+    margin-right: auto;
+	width: 1399px;
+	height: 1414px;
+	background-color: #e4fdf9;
+}
+
+h1, p{
+	text-align: center;
+}
+
+h1{
+	font-size: 30px;
+	line-height: 22px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	color: #212121;
+	padding-top: 150px
+}
+
+p{
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	color: #212121;
+	padding-top: 10px;
+}
+
+
+.contanier{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 7%;
+    margin-right: 7%;
+	margin-top: 50px;
+	flex-wrap: wrap;
+}
+
+.contanier .card{
+	width: 370px; 
+	height: 438px;
+	margin-top: 30px;
+	background-color: #ffffff;
+}
+
+.contanier .card .images{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.contanier .card .title{
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	color: #212121;
+	margin-bottom: 10px;
+}
+
+.contanier .card .subtitle{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	hyphens: auto;
+	padding: 10px 60px 10px 60px;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	color: #212121;
+}
+
+.contanier .card .butten{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.contanier .card .butten button{
+	width: 150px;
+	height: 55px;
+	border: 2px solid #212121;
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	color: #212121;
+	background-color: #ffffff;
+	margin-top: 20px;
+}
+
+
+.contanier .card .butten button:hover{
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	background-color: #00897b;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.34);
+}
+
+@media screen and (max-width: 900px){
+	.contanier{
+		flex-direction: column;
+			height: auto;
+	}
+}
