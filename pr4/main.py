@@ -4,7 +4,7 @@ import json
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'noebgqebrgwdfvlbdwif'
 
-@app.route('')
+@app.route('/test/index')
 def main():
     return json.loads('{"result" : "hello world"}')
 
